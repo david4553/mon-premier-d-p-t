@@ -3,61 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boulangerie Le fournil</title>
+    <title>La Carte - Boulangerie Le Fournil</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="family" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
 </head>
 <body>  
-
+    <!-- En-tête -->
     <header>
-        <h1> Le fournil</h1>
-                          <!--navigateur-->
-      <nav>
-        <a href="./index.html">Acueil</a>
-        <a href="./carte.html">La carte</a>
-        <a href="./contact.html">Contact</a>
-        
-      </nav>  
+        <h1>Le Fournil</h1>
+        <nav>
+            <a href="./index.html">Accueil</a>
+            <a href="./carte.html">La carte</a>
+            <a href="./contact.html">Contact</a>
+        </nav>  
     </header> 
 
-    <section>
-       <h2>Nos pains</h2>
-         <p>fabriqués avec des ingrédients de qualité et cuits selon des méthodes traditionnelles</p> 
+    <main>
+        <!-- Section Pains -->
+        <section>
+            <h2>Nos pains</h2>
+            <p>Fabriqués avec des ingrédients de qualité et cuits selon des méthodes traditionnelles</p> 
 
-    <div id="carte">
+            <div id="carte">
+                <ul class="liste-produits">
+                    <li class="product">
+                        <h3>Pain de campagne</h3>
+                        <img src="./assets/images/charles-chen-0keGhiSw9kY-unsplash.jpg" alt="Pain de campagne">
+                    </li>
+                    <li class="product">
+                        <h3>Pain complet</h3>
+                        <img src="./assets/images/diego-arenas-de-rodrigo-PDH6yk_KZ_M-unsplash.jpg" alt="Pain complet">
+                    </li>
+                    <li class="product">
+                        <h3>Pain aux noix</h3>
+                        <img src="./assets/images/intrepid-1l2qWh-W5AU-unsplash.jpg" alt="Pain aux noix">
+                    </li>
+                    <li class="product">
+                        <h3>Les viennoiseries</h3>
+                        <img src="./assets/images/boulangerie.jpg" alt="Viennoiseries">
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-       <ul>
-         <li class="product">pain de campagne</li>
-         <img src="./accet/images/charles-chen-0keGhiSw9kY-unsplash.jpg" alt="Paine de campagne" width="300px">
-         <li class="product">pain complet</li>
-         <img src="./accet/images/diego-arenas-de-rodrigo-PDH6yk_KZ_M-unsplash.jpg" alt="Pain complet" width="300px">
-         <li class="product">pain aux noix</li>
-         <img src="./accet/images/intrepid-1l2qWh-W5AU-unsplash.jpg" alt="Pain aux noix" width="300px">
-         <li class="product">Les viennoiseries</li>
-         <img src="./accet/images/boulangerie.jpg" alt="Viennoiseries" width="300px">
-         
-     </div> 
-        
-        <h2>Nos gâteaux</h2>
+        <!-- Section Gâteaux -->
+        <section>
+            <h2>Nos gâteaux</h2>
+            <p>Nos gâteaux sont préparés chaque matin avec des ingrédients frais et locaux.</p>
 
-           <p>Nos gâteaux sont préparés chaque matin avec des ingrédients frais et locaux.</p>
+            <ul class="liste-produits">
+                <li class="product">
+                    <h3>Les gâteaux du jour</h3>
+                    <img src="./assets/images/jacob-thomas-6jHpcBPw7i8-unsplash.jpg" alt="Gâteaux artisanaux">
+                </li>
+            </ul>
+           
+            <p>Un savoir-faire depuis plus de 20 ans au service de nos clients.</p>
+        </section>
+    </main>
 
-         <li class="product">Les gâteaux</li>
-         <img src="accet/images/jacob-thomas-6jHpcBPw7i8-unsplash.jpg" alt="Gâteaux" width="300px">
-       </ul>
-       
-        <p> un savoire faire depuis plus de 20 ans au service des clients</p>
-    </section>
-    
-
-
+    <!-- Pied de page -->
     <footer>
-
-        <br><br>
-        <p> 26 rue de la martine coullons 45720</p>
-        <p>Horaire d'ouverture: du mardi au dimanche de 6h à 19h</p>
-
+        <p>26 rue de la Martine, 45720 Coullons</p>
+        <p>Horaires d'ouverture : du mardi au dimanche de 6h à 19h</p>
     </footer>
-    
 </body>
 </html>

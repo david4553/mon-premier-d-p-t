@@ -3,210 +3,209 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Le fournil- Boulangerie artisanal</title>
+    <title>Le Fournil - Boulangerie Artisanale</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
 </head>
 <body>
-                          <!---en-tête-->  
- <header>
-        <h1> Le fournil</h1>
-                          <!--navigateur-->
-      <nav>
-        <a href="./index.html">Acueil</a>
-        <a href="./carte.html">La carte</a>
-        <a href="./contact.html">Contact</a>
-      </nav> 
-
- </header>
+    <!-- En-tête -->
+    <header>
+        <h1>Le Fournil</h1>
+        <!-- Navigation -->
+        <nav>
+            <a href="./index.html">Accueil</a>
+            <a href="./carte.html">La carte</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+    </header>
 
     <main>
-                   <!--descriptif savoir faire-->
+        <!-- Descriptif savoir-faire -->
+        <section class="presentation">
+            <img id="image" src="./assets/images/boulangerie.jpg" alt="Artisanale boulangerie">
+            <h2>Notre savoir-faire</h2>
+            <p>Boulangerie artisanale depuis plus de 50 ans</p>
+            <p>Un savoir-faire de père en fils</p>
+        </section>
 
-     <section>
-           <img id="image" src="./accet/images/boulangerie.jpg" alt="Artisanale boulangerie" width="600px">
-            <h2>Notre savoir faire</h2>
-              <p>boulangerie artisanal depuis plus de 50 ans</p>
-              <p>un savoir faire de pére en fils</p>
-     </section>
+        <!-- Descriptif produits -->
+        <section class="produits-phares">
+            <h2>Nos produits phares</h2>
 
-                     <!--descriptif produit-->
+            <h3>La tarte aux pommes</h3>
+            <p>Notre tarte aux pommes maison, recette vieille de plus de 20 ans</p>
 
-     <section>
+            <h3>Notre pain aux noix</h3>
+            <p>Pain aux noix cuit au feu de bois</p>
+                 
+            <h3>Nos baguettes paysannes</h3>
+            <p>Baguette réalisée avec une recette vieille de plus de 50 ans</p>
+        </section>
+        
+        <div class="slogan">
+            <strong>Boulanger depuis plus de 50 ans</strong>
+            <p><em>Boulangerie de père en fils</em></p>
+        </div>
+        
+        <ul class="categories">
+            <li>Baguettes</li>
+            <li>Pains</li>
+            <li>Viennoiseries</li>
+            <li>Gâteaux</li>
+        </ul>
 
-      <h2>Nos produits phares</h2>
+        <ol class="valeurs">
+            <li>Savoir-faire</li>
+            <li>Nos producteurs</li>
+        </ol>
 
-      <h3>La tarte au pomme</h3>
-          <p>notre tarte au pomme maison recette vielle de plus de 20 ans</p>
+        <!-- Tableau des commandes et tarifs -->
+        <section class="tarifs">
+            <h2>Nos tarifs et commandes</h2>
+            <div class="table-container">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Gâteaux</th>
+                            <th>Poids</th>
+                            <th>Prix</th>
+                            <th>Quantité</th>       
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Flan</td>
+                            <td>500g</td>
+                            <td>10€</td>
+                            <td>
+                                <select name="quantite_flan" id="quantite_flan">
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Tarte aux pommes</td>
+                            <td>1kg</td>
+                            <td>12€</td>
+                            <td>
+                                <select name="quantite_tarte" id="quantite_tarte">
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Gâteau au chocolat</td>
+                            <td>1kg</td>
+                            <td>15€</td>
+                            <td>
+                                <select name="quantite_chocolat" id="quantite_chocolat">
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                </select>             
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Gâteau aux cerises</td>
+                            <td>1kg</td>
+                            <td>16€</td>
+                            <td>
+                                <select name="quantite_cerise" id="quantite_cerise">
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                </select>             
+                            </td>
+                        </tr>
+                    </tbody>
+                </table> 
+            </div>
+        </section>
 
-      <h3> Notre pain au noix</h3>
-          <p>pain au noix cuit au feu de bois</p>
-             
-      <h3>Nos baguettes paysanne</h3>
-          <p>Baguette réalisée avec une recette veille de plus de 50 ans</p>
+        <!-- Section Boutique et Galerie -->
+        <section class="boutique">
+            <h2>Notre Boutique</h2>
+            <p>Notre boutique est ouverte du mardi au dimanche de 6h à 19h</p>
 
-     </section>
-     
-     <strong>Boulangé depuis plus de 50 ans</strong>
-     <br>
-     <em>boulangerie de père en fils</em>
-     <br>
-     
-    <ul>
-        <li>Baguettes</li>
-        <li>Pains</li>
-        <li>Viennoiseries</li>
-        <li>Gâteaux</li>
-    </ul>
+            <div class="gallerie">
+                <figure>
+                    <img src="./assets/images/boulangerie.jpg" alt="Boulangerie Le Fournil">
+                    <figcaption>Notre devanture</figcaption>
+                </figure>
+                <figure>
+                    <img src="./assets/images/boulangerie.jpg" alt="Fournil et pétrin">
+                    <figcaption>Le fournil</figcaption>
+                </figure>
+                <figure>
+                    <img src="./assets/images/boulangerie.jpg" alt="Viennoiseries fraîches">
+                    <figcaption>Nos viennoiseries</figcaption>
+                </figure>
+                <figure>
+                    <img src="./assets/images/boulangerie.jpg" alt="Pains spéciaux">
+                    <figcaption>Nos pains spéciaux</figcaption>
+                </figure>
+                <figure>
+                    <img src="./assets/images/boulangerie.jpg" alt="Pâtisseries artisanales">
+                    <figcaption>Pâtisseries</figcaption>
+                </figure>
+                <figure>
+                    <img src="./assets/images/boulangerie.jpg" alt="Espace vente">
+                    <figcaption>L'accueil</figcaption>
+                </figure>
+            </div>
+        </section> 
 
-    <ol>
-        <li>Savoir faire</li>
-        <li>Nos producteurs</li>
-    </ol>
+        <!-- Liens et contact rapide -->
+        <section class="liens-utiles">
+            <p>Contact : <a href="mailto:contact@lefournil.fr">contact@lefournil.fr</a></p>
+            <p>En savoir plus sur l'histoire de la boulangerie : <a href="https://fr.wikipedia.org/wiki/Boulangerie" target="_blank" rel="noopener noreferrer">Boulangerie sur Wikipédia</a></p>
+        </section>
+    </main>
 
-    <table>
-        <tr clase="table">
-            <th>Gateaux</th>
-            <th>poids</th>
-            <th>Prix</th>
-            <th>Quantités</th>       
-        <tr>
-            <td>Flan</td>
-            <td>500g</td>
-            <td>10€</td>
-        <td>
-            
-            <select name="quantité" id="quantité">
-                    <option value="0">0</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                    <option value="11">11</option>
-             </select>             
-        </tr>
-        <tr>
-            <td>Tarte aux pommes</td>
-            <td>1kg</td>
-            <td>12€</td>
-            <td>
-                <select name="quantité" id="quantité">
-                    <option value="0">0</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="1">6</option>
-                    <option value="2">7</option>
-                    <option value="2">8</option>
-                    <option value="3">9</option>
-                    <option value="4">10</option>
-                    <option value="5">11</option>
-                </select>
-            </td>
-         </tr>
-        <tr>
-            <td>Gâteau au chocolat</td>
-            <td>1kg</td>
-            <td>15€</td>
-            <td>
-                <select name="quantité" id="quantité">
-                    <option value="0">0</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="1">6</option>
-                    <option value="2">7</option>
-                    <option value="2">8</option>
-                    <option value="3">9</option>
-                    <option value="4">10</option>
-                    <option value="5">11</option>
-                </select>             
-            </td>
-            <tr>
-                <td>Gâteau aux cerises</td>
-                <td>1kg</td>
-                <td>16€</td>
-                
-                <td>
-                    <select name="quantité" id="quantité">
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="1">6</option>
-                        <option value="2">7</option>
-                        <option value="2">8</option>
-                        <option value="3">9</option>
-                        <option value="4">10</option>
-                        <option value="5">11</option>
-                    </select>             
-                </td>
-    </table> 
-    <section>
-        <h2>Notre Boutique</h2>
-         <p>Notre boutique est ouverte du mardi au dimanche de 6h à 19h</p>
-
-    <div classe="gallerie">
-
-            <figure>
-                <img src="./accet/images/boulangerie.jpg" alt="Boulangerie" width="300px">
-                <figcaption>Boulangerie</figcaption>
-            </figure>
-
-            <figure>
-                <img src="./accet/images/boulangerie.jpg" alt="Boulangerie" width="300px">
-                <figcaption>Boulangerie</figcaption>
-            </figure>
-
-            <figure>
-                <img src="./accet/images/boulangerie.jpg" alt="Boulangerie" width="300px">
-                <figcaption>Boulangerie</figcaption>
-                
-              <figure>
-                <img src="./accet/images/boulangerie.jpg" alt="Boulangerie" width="300px">
-                <figcaption>Boulangerie</figcaption>
-            </figure>
-             <figure>
-
-                <img src="./accet/images/boulangerie.jpg" alt="Boulangerie" width="300px">
-                <figcaption>Boulangerie</figcaption>
-            </figure>
-
-            <figure>
-                <img src="./accet/images/boulangerie.jpg" alt="Boulangerie" width="300px">
-                <figcaption>Boulangerie</figcaption>
-            </figure>
-    </div>
-    </section> 
-     <section>
-         <p>Contate: <a href="mailto:contact@lefournil.fr">contact@lefournil.fr</a></p>
-        <p>Cite <a href="https://fr.wikipedia.org/wiki/Boulangerie" target="_blank">Boulangerie</a></p>
-    </section>
-      
-          
-
-         
-</main>
-
-                        <!--pied de page-->
+    <!-- Pied de page -->
     <footer>
-        <br><br>
-        <p> 26 rue de la martine coullons 45720</p>
-        <p>Horaire d'ouverture: du mardi au dimanche de 6h à 19h</p>
-
+        <p>26 rue de la Martine, 45720 Coullons</p>
+        <p>Horaires d'ouverture : du mardi au dimanche de 6h à 19h</p>
     </footer>
-    
 </body>
 </html>
